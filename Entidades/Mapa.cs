@@ -50,7 +50,9 @@ namespace Entidades
         /// <param name="alto">Alto del mapa.</param>
         public Mapa(string titulo = "Ciudad Autónoma de Buenos Aires",
                     string autor = "Instituto de Geografia",
-                    int anio = 2022, string codebar = "8888",
+                    int anio = 2022, 
+                    string numNormalizado = "",
+                    string codebar = "8888",
                     int ancho = 30,
                     int alto = 20)
                     : base(titulo, autor, anio, "", codebar)
@@ -87,7 +89,7 @@ namespace Entidades
                 return false;
             }
 
-            return (m1.Barcode == m2.Barcode &&
+            return (m1.Barcode == m2.Barcode ||
                    (m1.Titulo == m2.Titulo && m1.Autor == m2.Autor && m1.Anio == m2.Anio && m1.Superficie == m2.Superficie));
         }
 
@@ -100,7 +102,7 @@ namespace Entidades
             StringBuilder sb = new StringBuilder();
 
             sb.AppendFormat(base.ToString());
-            sb.AppendFormat("Supericie: {0} * {1} = {2} cm2.\n", this.Alto, this.Ancho, this.Superficie);
+            sb.AppendFormat("Supericie: {0} * {1} = {2} cm2.", this.Alto, this.Ancho, this.Superficie);
 
             return sb.ToString();
 

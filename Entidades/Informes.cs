@@ -19,7 +19,7 @@ namespace Entidades
         /// <param name="extension">La extensión total de los documentos en el estado especificado.</param>
         /// <param name="cantidad">La cantidad total de documentos en el estado especificado.</param>
         /// <param name="resumen">El resumen del informe generado.</param>
-        private static void MostrarDocumentosPorEstado(Escaner e, Paso estado, out int extension, out int cantidad, out string resumen)
+        private static void MostrarDocumentosPorEstado(Escaner e, Documento.Paso estado, out int extension, out int cantidad, out string resumen)
         {
             int contaExtension = 0;
             int contaCantidad = 0;
@@ -30,7 +30,7 @@ namespace Entidades
                 if (d.Estado == estado)
                 {
                     contaCantidad++;
-                    resumenBuilder.AppendLine(d.ToString());
+                    resumenBuilder.Append(d.ToString());
                     if (d is Libro l)
                     {
                         contaExtension += l.NumPaginas;
@@ -62,7 +62,7 @@ namespace Entidades
         /// <param name="resumen">El resumen del informe generado.</param>
         public static void MostrarDistribuidos(Escaner e, out int extension, out int cantidad, out string resumen)
         {
-            MostrarDocumentosPorEstado(e, Paso.Distribuido, out extension, out cantidad, out resumen);
+            MostrarDocumentosPorEstado(e, Documento.Paso.Distribuido, out extension, out cantidad, out resumen);
         }
 
         /// <summary>
@@ -74,7 +74,7 @@ namespace Entidades
         /// <param name="resumen">El resumen del informe generado.</param>
         public static void MostrarEnEscaner(Escaner e, out int extension, out int cantidad, out string resumen)
         {
-            MostrarDocumentosPorEstado(e, Paso.EnEscaner, out extension, out cantidad, out resumen);
+            MostrarDocumentosPorEstado(e, Documento.Paso.EnEscaner, out extension, out cantidad, out resumen);
         }
 
         /// <summary>
@@ -84,9 +84,9 @@ namespace Entidades
         /// <param name="extension">La extensión total de los documentos en revisión.</param>
         /// <param name="cantidad">La cantidad total de documentos en revisión.</param>
         /// <param name="resumen">El resumen del informe generado.</param>
-        public static void MostrarEnRevisión(Escaner e, out int extension, out int cantidad, out string resumen)
+        public static void MostrarEnRevision(Escaner e, out int extension, out int cantidad, out string resumen)
         {
-            MostrarDocumentosPorEstado(e, Paso.EnRevision, out extension, out cantidad, out resumen);
+            MostrarDocumentosPorEstado(e, Documento.Paso.EnRevision, out extension, out cantidad, out resumen);
         }
 
         /// <summary>
@@ -98,7 +98,7 @@ namespace Entidades
         /// <param name="resumen">El resumen del informe generado.</param>
         public static void MostrarTerminados(Escaner e, out int extension, out int cantidad, out string resumen)
         {
-            MostrarDocumentosPorEstado(e, Paso.Terminado, out extension, out cantidad, out resumen);
+            MostrarDocumentosPorEstado(e, Documento.Paso.Terminado, out extension, out cantidad, out resumen);
         }
     }
 }

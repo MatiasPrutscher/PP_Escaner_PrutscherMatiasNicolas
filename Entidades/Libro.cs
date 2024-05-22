@@ -106,7 +106,7 @@ namespace Entidades
             sb.AppendFormat(aux);
             aux = ("ISBN: " + this.ISBN + "\n");
             sb.Insert(index, aux);
-            sb.AppendFormat("Número de páginas: {0}.\n", this.NumPaginas);
+            sb.AppendFormat("Número de páginas: {0}.", this.NumPaginas);
 
             return sb.ToString();
         }
