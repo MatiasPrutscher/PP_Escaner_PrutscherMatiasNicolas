@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\matia\\source\\repos\\PP_Escaner_PrutscherMatiasNicolas\\",
+  "WorkspaceRootPath": "C:\\Users\\matia\\OneDrive\\Documentos\\GitHub\\PP_Escaner_PrutscherMatiasNicolas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2DAF3756-DF20-4411-95E2-B854AD92213C}|Test\\Test.csproj|C:\\Users\\matia\\source\\repos\\PP_Escaner_PrutscherMatiasNicolas\\test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2DAF3756-DF20-4411-95E2-B854AD92213C}|Test\\Test.csproj|c:\\users\\matia\\onedrive\\documentos\\github\\pp_escaner_prutschermatiasnicolas\\test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2DAF3756-DF20-4411-95E2-B854AD92213C}|Test\\Test.csproj|solutionrelative:test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{704286B6-60AE-4407-821D-16D22F588496}|Entidades\\Entidades.csproj|c:\\users\\matia\\source\\repos\\pp_escaner_prutschermatiasnicolas\\entidades\\escaner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{704286B6-60AE-4407-821D-16D22F588496}|Entidades\\Entidades.csproj|solutionrelative:entidades\\escaner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{704286B6-60AE-4407-821D-16D22F588496}|Entidades\\Entidades.csproj|C:\\Users\\matia\\source\\repos\\PP_Escaner_PrutscherMatiasNicolas\\entidades\\mapa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{704286B6-60AE-4407-821D-16D22F588496}|Entidades\\Entidades.csproj|C:\\Users\\matia\\OneDrive\\Documentos\\GitHub\\PP_Escaner_PrutscherMatiasNicolas\\entidades\\mapa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{704286B6-60AE-4407-821D-16D22F588496}|Entidades\\Entidades.csproj|solutionrelative:entidades\\mapa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{704286B6-60AE-4407-821D-16D22F588496}|Entidades\\Entidades.csproj|C:\\Users\\matia\\source\\repos\\PP_Escaner_PrutscherMatiasNicolas\\entidades\\documento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{704286B6-60AE-4407-821D-16D22F588496}|Entidades\\Entidades.csproj|C:\\Users\\matia\\OneDrive\\Documentos\\GitHub\\PP_Escaner_PrutscherMatiasNicolas\\entidades\\escaner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{704286B6-60AE-4407-821D-16D22F588496}|Entidades\\Entidades.csproj|solutionrelative:entidades\\escaner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{704286B6-60AE-4407-821D-16D22F588496}|Entidades\\Entidades.csproj|C:\\Users\\matia\\OneDrive\\Documentos\\GitHub\\PP_Escaner_PrutscherMatiasNicolas\\entidades\\documento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{704286B6-60AE-4407-821D-16D22F588496}|Entidades\\Entidades.csproj|solutionrelative:entidades\\documento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -32,50 +32,48 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Documento.cs",
-              "DocumentMoniker": "C:\\Users\\matia\\source\\repos\\PP_Escaner_PrutscherMatiasNicolas\\Entidades\\Documento.cs",
+              "DocumentMoniker": "C:\\Users\\matia\\OneDrive\\Documentos\\GitHub\\PP_Escaner_PrutscherMatiasNicolas\\Entidades\\Documento.cs",
               "RelativeDocumentMoniker": "Entidades\\Documento.cs",
-              "ToolTip": "C:\\Users\\matia\\source\\repos\\PP_Escaner_PrutscherMatiasNicolas\\Entidades\\Documento.cs",
+              "ToolTip": "C:\\Users\\matia\\OneDrive\\Documentos\\GitHub\\PP_Escaner_PrutscherMatiasNicolas\\Entidades\\Documento.cs",
               "RelativeToolTip": "Entidades\\Documento.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAxwDMAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T01:01:00.419Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-17T01:01:00.419Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Mapa.cs",
-              "DocumentMoniker": "C:\\Users\\matia\\source\\repos\\PP_Escaner_PrutscherMatiasNicolas\\Entidades\\Mapa.cs",
+              "DocumentMoniker": "C:\\Users\\matia\\OneDrive\\Documentos\\GitHub\\PP_Escaner_PrutscherMatiasNicolas\\Entidades\\Mapa.cs",
               "RelativeDocumentMoniker": "Entidades\\Mapa.cs",
-              "ToolTip": "C:\\Users\\matia\\source\\repos\\PP_Escaner_PrutscherMatiasNicolas\\Entidades\\Mapa.cs",
+              "ToolTip": "C:\\Users\\matia\\OneDrive\\Documentos\\GitHub\\PP_Escaner_PrutscherMatiasNicolas\\Entidades\\Mapa.cs",
               "RelativeToolTip": "Entidades\\Mapa.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAgwBMAAAAAAAAA",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAgwFgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-17T01:50:55.365Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Escaner.cs",
-              "DocumentMoniker": "C:\\Users\\matia\\source\\repos\\PP_Escaner_PrutscherMatiasNicolas\\Entidades\\Escaner.cs",
+              "DocumentMoniker": "C:\\Users\\matia\\OneDrive\\Documentos\\GitHub\\PP_Escaner_PrutscherMatiasNicolas\\Entidades\\Escaner.cs",
               "RelativeDocumentMoniker": "Entidades\\Escaner.cs",
-              "ToolTip": "C:\\Users\\matia\\source\\repos\\PP_Escaner_PrutscherMatiasNicolas\\Entidades\\Escaner.cs",
+              "ToolTip": "C:\\Users\\matia\\OneDrive\\Documentos\\GitHub\\PP_Escaner_PrutscherMatiasNicolas\\Entidades\\Escaner.cs",
               "RelativeToolTip": "Entidades\\Escaner.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAI0AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T17:08:46.56Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-17T17:08:46.56Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\matia\\source\\repos\\PP_Escaner_PrutscherMatiasNicolas\\Test\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\matia\\OneDrive\\Documentos\\GitHub\\PP_Escaner_PrutscherMatiasNicolas\\Test\\Program.cs",
               "RelativeDocumentMoniker": "Test\\Program.cs",
-              "ToolTip": "C:\\Users\\matia\\source\\repos\\PP_Escaner_PrutscherMatiasNicolas\\Test\\Program.cs",
+              "ToolTip": "C:\\Users\\matia\\OneDrive\\Documentos\\GitHub\\PP_Escaner_PrutscherMatiasNicolas\\Test\\Program.cs",
               "RelativeToolTip": "Test\\Program.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAgwDIAAAAfAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwBAAAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-18T21:05:32.156Z",
               "EditorCaption": ""

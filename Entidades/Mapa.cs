@@ -87,7 +87,7 @@ namespace Entidades
                 return false;
             }
 
-            return (m1.Barcode == m2.Barcode ||
+            return (m1.Barcode == m2.Barcode &&
                    (m1.Titulo == m2.Titulo && m1.Autor == m2.Autor && m1.Anio == m2.Anio && m1.Superficie == m2.Superficie));
         }
 
